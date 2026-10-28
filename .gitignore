@@ -1,7 +1,54 @@
+# Local environment and credentials
 .env
 .env.*
 !.env.example
+!.env.*.example
 *.pem
 *.key
+
+# OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Editor temporary files and local settings
+*.swp
+*.swo
+*~
+/.idea/
+/.vs/
+/.vscode/*.local.json
+
+# Logs and temporary files
+*.log
+/.cache/
+/tmp/
+/temp/
+
+# JavaScript dependencies and generated output
+node_modules/
+/.next/
+/.nuxt/
+/.output/
+/.parcel-cache/
+/.turbo/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Build output and test coverage
+/dist/
+/build/
+/coverage/
+.coverage
+.coverage.*
+/htmlcov/
